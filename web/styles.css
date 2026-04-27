@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.naveg {
+    position: sticky;
+    top: 0;
+    background-color: #35394900;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0);
+}
+
+.naveg a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    margin: 15px;
+}
+
+.texto {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.footer {
+    background-color: #353949;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    position: sticky;
+    bottom: 0;
+}

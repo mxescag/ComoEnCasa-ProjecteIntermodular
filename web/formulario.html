@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>FORMULARIO</title>
+</head>
+
+<body>
+    <div class="naveg">
+        <h1>Proyecto Intermodular</h1>
+        <nav>
+            <a href="index.html">Inici</a>
+            <a href="about.html">Sobre nosotros</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="formulario.html">Formulario</a>
+        </nav>
+    </div>
+
+    <form action="formulario.html">
+        <div class="formulario">
+            <h2 class="p4">Formulario de contacto</h2>
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <br>
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <br>
+            <div class="campo">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <br>
+            <div class="campo">
+                <button type="submit">Enviar</button>
+            </div>
+        </div>
+    </form>
+
+    <div class="footer">
+        <p>© 2026 Proyecto Intermodular</p>
+    </div>
+</body>
+
+</html>
