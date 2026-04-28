@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,13 @@
 <body>
     <div class="naveg">
         <h1>Proyecto Intermodular</h1>
-        <nav>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu"
+            aria-label="Abrir menu de navegacion">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="main-menu" class="menu">
             <a href="index.html">Inici</a>
             <a href="about.html">Sobre nosotros</a>
             <a href="contacto.html">Contacto</a>
@@ -44,8 +50,9 @@
     </form>
 
     <div class="footer">
-        <p>© 2026 Proyecto Intermodular</p>
+        <p>&copy; 2026 Proyecto Intermodular</p>
     </div>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
