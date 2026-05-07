@@ -189,3 +189,116 @@ form {
         padding: 20px 16px;
     }
 }
+
+about {
+    padding: 64px 20px;
+}
+
+.about__container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.about__hero {
+    background: linear-gradient(135deg, #ffffff 0%, #f6fbf8 100%);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 48px 40px;
+    box-shadow: var(--shadow);
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.about__eyebrow {
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(47, 133, 90, 0.12);
+    color: var(--primary-dark);
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.about__hero h1 {
+    margin: 0 0 18px;
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
+    line-height: 1.1;
+    color: #163326;
+}
+
+.about__intro {
+    max-width: 780px;
+    margin: 0 auto;
+    font-size: 1.08rem;
+    line-height: 1.9;
+    color: var(--text-soft);
+}
+
+.about__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.about__card,
+.about__reasons {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+}
+
+.about__card {
+    padding: 30px;
+}
+
+.about__card h2,
+.about__reasons h2 {
+    margin-top: 0;
+    margin-bottom: 14px;
+    font-size: 1.45rem;
+    color: #173a2a;
+}
+
+.about__card p,
+.feature p {
+    margin: 0;
+    color: var(--text-soft);
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.about__reasons {
+    padding: 34px 30px;
+}
+
+.about__features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.feature {
+    background: var(--surface-2);
+    border: 1px solid #e4efe8;
+    border-radius: var(--radius-md);
+    padding: 22px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.feature:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(39, 103, 73, 0.10);
+    border-color: #bfd8c8;
+}
+
+.feature h3 {
+    margin: 0 0 10px;
+    font-size: 1.05rem;
+    color: var(--primary-dark);
+}
